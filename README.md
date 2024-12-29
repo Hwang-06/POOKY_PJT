@@ -1,5 +1,5 @@
 # 🤖 POOKY
-### 프로젝트 진행 기간간
+### 프로젝트 진행 기간
 2024.10.1(화)~2024.12.26(목)
 
 ## 🤗팀 멤버
@@ -19,7 +19,7 @@
 
 ## ✨개요
 - 'POOKY(푸키)'는 Rasberry pi를 기반으로 6개의 모터 연결하여 제작한 6축 로봇팔입니다. flask를 사용해 웹페이지를 통해 모터를 제어하고 기구학을 통해 구한 X, Y, Z, Rx, Ry, Rz를 사용자가 웹에서 확인할 수 있습니다.
-- Inventor를 이용해 로봇팔 부품을 제작했습니다. 3D 모델링을 통해 각 부품을 제작하고 시뮬레이션을 통해 구동부에 문제점을 찾아 수정했습니다. 이후 3D프린터를 통해 제품을 뽑아 Rasberry pi와 모터와 함께 조립하여 6축로봇을 완성했습니다.
+- Inventor를 이용해 로봇팔 부품을 제작했습니다. 3D 모델링을 통해 각 부품을 제작하고 시뮬레이션을 통해 구동부에 문제점을 찾아 수정했습니다. 이후 3D프린터를 통해 제품을 뽑아 Raspberry pi와 모터와 함께 조립하여 6축로봇을 완성했습니다.
 
 ## 🎯타겟
 - 로봇팔에 관심이 있는 입문자, 초보자 초보자를 위한 가이드 제작
@@ -50,42 +50,27 @@
 ### CAD
 
 Inventor를 사용해 6축로봇 부품 모델링
+|1. Base_bottom|2. Base_cover|
+| --- | --- |
+|<img src="image.png" width="1600"> | <img src="image-3.png" width="1600">|
 
-1. Base_bottom
+|3. Base_shoulder|4. Arm|
+| --- | --- |
+|<img src="image-4.png" width="1600"> | <img src="image-8.png" width="1600">|
 
-![alt text](image.png)
+|5. Arm_cover|6. Arm_shoudler|
+| --- | --- |
+|<img src="image-12.png" width="1600"> | <img src="image-10.png" width="1600">|
 
-2. Base_cover
+|7. End_effector|
+| --- |
+|<img src="image-11.png" width="700"> |
 
-![alt text](image-3.png)
-
-3. Base_shoulder
-
-![alt text](image-4.png)
-
-4. Arm
-
-![alt text](image-8.png)
-
-5. Arm_cover
-
-![alt text](image-12.png)
-
-6. Arm_shoudler
-
-![alt text](image-10.png)
-
-7. End_effector
-
-![alt text](image-11.png)
-
-
-조립된 모습
-
-![alt text](image-13.png)
+|조립된 모습|
+| --- |
+|<img src="image-13.png" width="500">|
 
 ### DH Parameter
-
 모터의 회전축을 Z축으로 기준 삼아 Modified DH Parameter를 계산
 
 ```python
@@ -106,8 +91,8 @@ Inventor를 사용해 6축로봇 부품 모델링
 ## 제어
 
 ### Rasberry pi
+<img src="image-14.png" width="500">
 
-![alt text](image-14.png)
 
 ```Python
 # 모터 제어 코드
