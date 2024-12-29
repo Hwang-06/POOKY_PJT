@@ -50,21 +50,13 @@
 ### CAD
 
 Inventor를 사용해 6축로봇 부품 모델링
-|1. Base_bottom|2. Base_cover|
-| --- | --- |
-|<img src="image.png" width="1600"> | <img src="image-3.png" width="1600">|
+|1. Base_bottom|2. Base_cover|3. Base_shoulder|
+| --- | --- | --- |
+|<img src="image.png" width="1600"> | <img src="image-3.png" width="1600">|<img src="image-4.png" width="1600"> | 
 
-|3. Base_shoulder|4. Arm|
-| --- | --- |
-|<img src="image-4.png" width="1600"> | <img src="image-8.png" width="1600">|
-
-|5. Arm_cover|6. Arm_shoudler|
-| --- | --- |
-|<img src="image-12.png" width="1600"> | <img src="image-10.png" width="1600">|
-
-|7. End_effector|
-| --- |
-|<img src="image-11.png" width="700"> |
+|4. Arm|5. Arm_cover|6. Arm_shoudler|7. End_effector|
+| --- | --- | --- | --- |
+| <img src="image-8.png" width="800">|<img src="image-12.png" width="800"> | <img src="image-10.png" width="800">|<img src="image-11.png" width="800"> |
 
 |조립된 모습|
 | --- |
