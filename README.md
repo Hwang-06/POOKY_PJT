@@ -652,7 +652,7 @@ Python 기반의 웹 프레임워크 **Flask**를 사용하여 웹을 구현<br>
 
 ### 시연
 
-[Watch the video](https://github.com/Hwang-06/POOKY_PJT/blob/main/test_1.mov)
+[Watch the video](https://github.com/Hwang-06/POOKY_PJT/blob/master/test_1.mov)
 
 ## Conculsion
 
